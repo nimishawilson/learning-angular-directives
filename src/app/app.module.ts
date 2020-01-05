@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
+import { BaiscHighLightDirective } from './basic-highlight/basic-highlight.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BaiscHighLightDirective
   ],
   imports: [
     BrowserModule,
