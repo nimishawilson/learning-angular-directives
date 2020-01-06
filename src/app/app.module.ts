@@ -5,12 +5,14 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { BaiscHighLightDirective } from './basic-highlight/basic-highlight.directive';
 import { BetterHighlightDirective } from './better-highlight/better-highlight.directive';
+import { UnlessDirective } from './unless.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     BaiscHighLightDirective,
-    BetterHighlightDirective
+    BetterHighlightDirective,
+    UnlessDirective
   ],
   imports: [
     BrowserModule,
